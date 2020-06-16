@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    color: rgb(157, 255, 28);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 10px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#name {
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Permanent Marker', cursive;
+    width: auto;
+    background-color: rgb(157, 255, 28);
+}
+
+.generate {
+    border: 2px solid;
+    border-radius: 50px;
+    font-family: 'Permanent Marker', cursive;
+    background-color: rgb(157, 255, 28);
+    outline: none;
+    opacity: 0.5;
+    margin: 10px;
+    padding: 5px;
+}
+
+.generate:hover{
+    opacity: 1;
+}
+
+.story{
+    font-size: 30px;
+    text-align: justify;
+}
